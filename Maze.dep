@@ -1,0 +1,38 @@
+# Microsoft Developer Studio Generated Dependency File, included by Maze.mak
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\Maze.h"\
+	".\StdAfx.h"\
+	
+
+.\Maze.cpp : \
+	".\MainFrm.h"\
+	".\Maze.h"\
+	".\MazeDoc.h"\
+	".\MazeView.h"\
+	".\StdAfx.h"\
+	
+
+.\Maze.rc : \
+	".\res\Maze.ico"\
+	".\res\Maze.rc2"\
+	".\res\MazeDoc.ico"\
+	
+
+.\MazeDoc.cpp : \
+	".\Maze.h"\
+	".\MazeDoc.h"\
+	".\StdAfx.h"\
+	
+
+.\MazeView.cpp : \
+	".\Maze.h"\
+	".\MazeDoc.h"\
+	".\MazeView.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
